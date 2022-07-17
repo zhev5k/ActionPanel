@@ -47,7 +47,7 @@ choice = int(choice)
 
 
 if choice == 1:
-	print(name2, "ударил", name )
+	print(name, "ударил", name2)
 	time.sleep(5)
 	os.system('cls')
 	mainmenu()
@@ -59,7 +59,7 @@ if choice == 1:
 
 
 if choice == 2:
-	print(name2, "обосрал", name)
+	print(name, "обосрал", name2)
 	time.sleep(5)
 	os.system('cls')
 	mainmenu()
@@ -70,7 +70,7 @@ if choice == 2:
 	choice = int(choice)
 
 if choice == 3:
-	print(name2, "убил", name)
+	print(name, "убил", name2)
 	time.sleep(5)
 	os.system('cls')
 	mainmenu()
@@ -81,7 +81,7 @@ if choice == 3:
 	choice = int(choice)
 
 if choice == 4:
-	print(name2, "выебал", name)
+	print(name, "выебал", name2)
 	time.sleep(5)
 	os.system('cls')
 	mainmenu()
@@ -92,7 +92,7 @@ if choice == 4:
 	choice = int(choice)
 
 if choice == 5:
-	print(name2, "унизил", name)
+	print(name, "унизил", name2)
 	time.sleep(5)
 	os.system('cls')
 	mainmenu()
@@ -103,7 +103,7 @@ if choice == 5:
 	choice = int(choice)
 
 if choice == 6:
-	print(name2, "обоссал", name)
+	print(name, "обоссал", name2)
 	time.sleep(5)
 	os.system('cls')
 	mainmenu()
@@ -125,7 +125,7 @@ if choice == 7:
 	choice = int(choice)
 
 if choice == 8:
-	print(name2, "кончил на", name)
+	print(name, "сватнул", name2)
 	time.sleep(5)
 	os.system('cls')
 	mainmenu()
