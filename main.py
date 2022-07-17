@@ -114,7 +114,7 @@ if choice == 6:
 	choice = int(choice)
 
 if choice == 7:
-	print(name2, "обкончал", name)
+	print(name, "обкончал", name2)
 	time.sleep(5)
 	os.system('cls')
 	mainmenu()
